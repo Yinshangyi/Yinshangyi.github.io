@@ -202,3 +202,4 @@ val sum = {
 }
 ```
 Once again, there is no need to specify the type of the code block (which is obviously Int). The compiler infers the type by itself. Who said statically typed language need to be verbose? 😊 
+

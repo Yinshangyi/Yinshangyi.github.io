@@ -7,8 +7,9 @@ import { astroImageTools } from 'astro-imagetools';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
   // base: '.', // Set a path prefix.
-  site: 'https://Yinshangyi.github.io', // Use to generate your sitemap and canonical URLs in your final build.
+  site: 'https://yinshangyi.github.io', // Use to generate your sitemap and canonical URLs in your final build.
   trailingSlash: 'always', // Use to always append '/' at end of url
   markdown: {
     shikiConfig: {
