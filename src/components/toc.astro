@@ -1,0 +1,20 @@
+---
+// Import necessary utilities
+import { MarkdownHeading } from 'astro';
+
+interface TOCProps {
+  headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props as TOCProps;
+---
+
+<nav aria-label="Table of contents">
+  <ul>
+    {headings.map((heading) => (
+      <li style={{ marginLeft: `${heading.depth - 2}em` }}>
+        <a href={`#${heading.slug}`}>{heading.text}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
