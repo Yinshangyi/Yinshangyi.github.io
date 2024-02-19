@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Astro boilerplate',
-  title: 'Astro boilerplate',
-  description: 'Boilerplate built with Astro using React and Tailwind CSS',
+  site_name: 'The Data Lead',
+  title: 'The Data Lead',
+  description: 'Blog about Data Engineering and Software best practices',
   author: 'Jean-Loïc De Jaeger',
   locale_region: 'en-us',
   locale: 'en',
