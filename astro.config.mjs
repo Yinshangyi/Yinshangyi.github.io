@@ -9,7 +9,7 @@ import { astroImageTools } from 'astro-imagetools';
 export default defineConfig({
   output: 'static',
   // base: '.', // Set a path prefix.
-  site: 'https://yinshangyi.github.io', // Use to generate your sitemap and canonical URLs in your final build.
+  site: 'https://thedatalead.org', // Use to generate your sitemap and canonical URLs in your final build.
   trailingSlash: 'always', // Use to always append '/' at end of url
   markdown: {
     shikiConfig: {
