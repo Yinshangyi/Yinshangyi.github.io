@@ -203,3 +203,30 @@ val sum = {
 ```
 Once again, there is no need to specify the type of the code block (which is obviously Int). The compiler infers the type by itself. Who said statically typed language need to be verbose? 😊 
 
+# Take away of this intro
+Scala syntax is very concise, sometimes even more than Python (especially for OOP code).   
+
+Python code:
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+
+    def is_adult(self) -> bool:
+        return self.age >= 18
+
+person = Person("Alice", 22)
+print(person.is_adult())
+```
+
+Scala code:
+```scala
+class Person(val name: String, val age: Int):
+  def isAdult: Boolean = age >= 18
+
+val person = Person("Alice", 22)
+println(person.isAdult)
+```
+
+But more on that later in the next article!
