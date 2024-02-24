@@ -2,8 +2,8 @@
 layout: '@/templates/BasePost.astro'
 title: Scala 101
 description: OOP with Scala
-pubDate: 2024-02-018
-imgSrc: '/assets/images/articles/scala-101-1.png'
+pubDate: 2024-02-23
+imgSrc: '/assets/images/articles/scala-oop/thumbnail.png'
 imgAlt: 'Image post 7'
 ---
 

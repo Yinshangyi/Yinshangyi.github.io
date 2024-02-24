@@ -2,8 +2,8 @@
 layout: '@/templates/BasePost.astro'
 title: Scala 101
 description: Learn the very basics of Scala 3
-pubDate: 2024-02-018
-imgSrc: '/assets/images/articles/scala-101-1.png'
+pubDate: 2024-02-18
+imgSrc: '/assets/images/articles/scala-basics/thumbnail.png'
 imgAlt: 'Image post 7'
 ---
 
