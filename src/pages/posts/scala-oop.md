@@ -741,7 +741,8 @@ As you probably found out, doing OOP 3 with Scala is even less verbose than doin
 Python is great language. There's a lot you can do with it.
 However for certain projets using a natively statically typed language make sense (better maintenance, type safety, refactoring, performance, etc...).  
 
-Java was originally marketed as a better Java. I'm sure you can see why. It makes everything way less verbose and more immutable. Besides it has top support for functionnal programming.  
+Scala was originally marketed as a better Java. I'm sure you can see why. It makes everything way less verbose and more immutable. Besides it has top support for functionnal programming.  
 Scala syntax has evolved and it is now very close to Python. 
 For a very similar syntax as Python, you get a lot of features for free.  
+Read reading those articles and learning Scala will make you better engineer, no matter what language you end up using. 
 Read reading those articles and learning Scala will make you better engineer, no matter what language you end up using. 
