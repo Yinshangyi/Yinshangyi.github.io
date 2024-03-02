@@ -1,0 +1,5 @@
+You can find bellow an example demonstrating data classes in Python to declare very easily immutable data classes.
+
+As you can see you get the __str__ and __eq__ for free! Plus everything so concise and immutable!
+
+It's really a good way to keep everything typed and immutable. 
