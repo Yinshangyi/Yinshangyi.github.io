@@ -6,13 +6,14 @@ import {
 } from 'astro-boilerplate-components';
 
 const getBlueText = (text: string) => <span className="text-cyan-400 hover:underline"> {text}</span>
+const introName = (text: string) => <span style={{color: "rgba(25, 189, 236, 0.9)"}}> {text}</span>
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Jean-Loïc</GradientText> 👋
+          Hi there, I'm {introName("Jean-Loïc")} 👋
         </>
       }
       description={
